@@ -1,0 +1,3 @@
+int main(int AA, int BB=2) { 
+  double EE, FF = 4.5, GG;
+}
