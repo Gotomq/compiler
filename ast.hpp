@@ -539,14 +539,8 @@ class Program {
         Value result = expr->code_value();
         show_value(expr->node_type, result);
       } else if (var_definitions != nullptr) {
-        /* there can be many definitions with the same type */
         for (auto &def : *var_definitions) {
-          /* checking if it has an assignment expression */
-          // std::cout << "var[" + def->id.name + "]\n";
           NExpression *hasExpr = def->assignmentExpr;
-          // std::cout << hasExpr->code_value().int_v << "\n";
-          // get_node_type(*hasExpr);
-          // std::cout << hasExpr->code_value().int_v << "\n";
           if (hasExpr) {
             Value result = def->code_value();
             show_value(def->id.node_type, result);
