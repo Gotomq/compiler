@@ -1,3 +1,6 @@
-int main(int AA, int BB=2) { 
-  double EE, FF = 4.5, GG;
+int func1 (int a, int b) {
+      return a*b;
+}
+int main () {
+      int var1 = func1(4,3);
 }

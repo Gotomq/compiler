@@ -3,7 +3,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <string>
-#include "ast.h"
+#include "ast.hpp"
 #include "parser.tab.h"
 
 #define SAVE_TOKEN yylval.str = new std::string(yytext, yyleng)
