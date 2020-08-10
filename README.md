@@ -11,5 +11,5 @@ Compilador para el Curso de Compiladores
 ### [Analizador Lexico](/lexer.l)
 ### [Analizador Sintactico](/parser.y)
 ### [Arbol](/ast.hpp)
-Estructura dedicada a almacenar la estructura de todo el programa
+Estructura de datos dedicada a almacenar la estructura de todo el programa
 ### [Arhivo](/main.ccc)
