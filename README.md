@@ -1,4 +1,4 @@
-# compiler
+# compiladores B
 Compilador para el Curso de Compiladores
 Funcionalidad:
 * Definicion y llamado de funciones
